@@ -3,7 +3,7 @@
 ### Description
 The Map Suite Android Edition illustrated QuickStart Guide will guide you through the process of creating a sample application and will help you become familiar with Map Suite. This edition of the QuickStart Guide supports Android Edition 10.0.0 and higher and will show you how to create an Android application using Map Suite Android Edition.
 
-![Screenshot](https://github.com/ThinkGeo/QuickstartSample-ForAndroid/blob/master/Screenshot.png)
+![Screenshot](https://github.com/ThinkGeo/QuickstartSample-ForAndroid/blob/master/Screenshot.PNG)
 
 ### Requirements
 This sample makes use of the following NuGet Packages
