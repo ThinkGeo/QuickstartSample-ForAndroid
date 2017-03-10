@@ -87,7 +87,7 @@ namespace QuickstartSample
 
             mapView.Overlays.Add("Countries02", overlay);
 
-            mapView.CurrentExtent = new RectangleShape(5, 78, 30, 26);
+            mapView.CurrentExtent = new RectangleShape(-134.01, 70.08, -56.60, 7.80);
         }
 
         private void CopySampleData(string targetDirectory)
