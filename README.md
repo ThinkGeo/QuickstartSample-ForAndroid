@@ -10,7 +10,7 @@ Please refer to [Wiki](http://wiki.thinkgeo.com/wiki/map_suite_mobile_for_androi
 ### Requirements
 This sample makes use of the following NuGet Packages
 
-[MapSuite 10.0.0.0](https://www.nuget.org/packages?q=thinkgeo)
+[MapSuite 10.0.0](https://www.nuget.org/packages?q=ThinkGeo)
 
 ### About the Code
 
@@ -18,9 +18,9 @@ Working...
 
 ### Getting Help
 
-[Map Suite Android Wiki Resources](http://wiki.thinkgeo.com/wiki/map_suite_mobile_for_android)
+[Map Suite mobile for Android Wiki Resources](http://wiki.thinkgeo.com/wiki/map_suite_mobile_for_android)
 
-[Map Suite Android Product Description](https://thinkgeo.com/ui-controls#mobile-platforms)
+[Map Suite mobile for Android Product Description](https://thinkgeo.com/ui-controls#mobile-platforms)
 
 [ThinkGeo Community Site](http://community.thinkgeo.com/)
 
