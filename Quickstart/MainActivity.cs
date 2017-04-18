@@ -8,7 +8,7 @@ using ThinkGeo.MapSuite.Layers;
 using ThinkGeo.MapSuite.Shapes;
 using ThinkGeo.MapSuite.Styles;
 
-namespace QuickstartSample
+namespace Quickstart
 {
     [Activity(Label = "QuickstartSample", MainLauncher = true, Icon = "@drawable/icon")]
     public class MainActivity : Activity
