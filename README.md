@@ -23,13 +23,10 @@ overlay.Layers.Add(capitalLabelLayer);
 ```
 ### Getting Help
 
-[Map Suite mobile for Android Wiki Resources](http://wiki.thinkgeo.com/wiki/map_suite_mobile_for_android)
-
-[Map Suite mobile for Android Product Description](https://thinkgeo.com/ui-controls#mobile-platforms)
-
-[ThinkGeo Community Site](http://community.thinkgeo.com/)
-
-[ThinkGeo Web Site](http://www.thinkgeo.com)
+- [Map Suite mobile for Android Wiki Resources](http://wiki.thinkgeo.com/wiki/map_suite_mobile_for_android)
+- [Map Suite mobile for Android Product Description](https://thinkgeo.com/ui-controls#mobile-platforms)
+- [ThinkGeo Community Site](http://community.thinkgeo.com/)
+- [ThinkGeo Web Site](http://www.thinkgeo.com)
 
 ### Key APIs
 This example makes use of the following APIs:
