@@ -34,11 +34,11 @@ overlay.Layers.Add(capitalLabelLayer);
 ### Key APIs
 This example makes use of the following APIs:
 
-[MapView](http://wiki.thinkgeo.com/wiki/api/thinkgeo.mapsuite.android.mapview)
+- [MapView](http://wiki.thinkgeo.com/wiki/api/thinkgeo.mapsuite.android.mapview)
 
-[LayerOverlay](http://wiki.thinkgeo.com/wiki/api/thinkgeo.mapsuite.android.layeroverlay)
+- [LayerOverlay](http://wiki.thinkgeo.com/wiki/api/thinkgeo.mapsuite.android.layeroverlay)
 
-[WorldStreetsAndImageryOverlay](http://wiki.thinkgeo.com/wiki/api/thinkgeo.mapsuite.android.worldstreetsandimageryoverlay)
+- [WorldStreetsAndImageryOverlay](http://wiki.thinkgeo.com/wiki/api/thinkgeo.mapsuite.android.worldstreetsandimageryoverlay)
 
 ### About Map Suite
 Map Suite is a set of powerful development components and services for the .Net Framework.
