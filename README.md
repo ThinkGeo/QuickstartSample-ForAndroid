@@ -35,7 +35,9 @@ overlay.Layers.Add(capitalLabelLayer);
 This example makes use of the following APIs:
 
 [MapView](http://wiki.thinkgeo.com/wiki/api/thinkgeo.mapsuite.android.mapview)
+
 [LayerOverlay](http://wiki.thinkgeo.com/wiki/api/thinkgeo.mapsuite.android.layeroverlay)
+
 [WorldStreetsAndImageryOverlay](http://wiki.thinkgeo.com/wiki/api/thinkgeo.mapsuite.android.worldstreetsandimageryoverlay)
 
 ### About Map Suite
