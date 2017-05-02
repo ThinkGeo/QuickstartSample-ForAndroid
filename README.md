@@ -13,9 +13,14 @@ This sample makes use of the following NuGet Packages
 [MapSuite 10.0.0](https://www.nuget.org/packages?q=ThinkGeo)
 
 ### About the Code
-
-Working...
-
+```
+LayerOverlay overlay = new LayerOverlay();
+overlay.Opacity = 0.8;
+overlay.Layers.Add(worldLayer);
+overlay.Layers.Add(capitalLayer);
+// Add the label layer to LayerOverlay.
+overlay.Layers.Add(capitalLabelLayer);
+```
 ### Getting Help
 
 [Map Suite mobile for Android Wiki Resources](http://wiki.thinkgeo.com/wiki/map_suite_mobile_for_android)
@@ -29,7 +34,7 @@ Working...
 ### Key APIs
 This example makes use of the following APIs:
 
-Working...
+LayerOverlay, PointStyle, AreaStyle
 
 ### About Map Suite
 Map Suite is a set of powerful development components and services for the .Net Framework.
