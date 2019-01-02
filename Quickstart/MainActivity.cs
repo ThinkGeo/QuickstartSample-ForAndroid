@@ -22,10 +22,11 @@ namespace Quickstart
             CopySampleData(targetDirectory);
 
             MapView mapView = FindViewById<MapView>(Resource.Id.MapView);
-            mapView.MapUnit = GeographyUnit.DecimalDegree;
+            mapView.MapUnit = GeographyUnit.Meter;
+            mapView.ZoomLevelSet = ThinkGeoCloudMapsOverlay.GetZoomLevelSet();
 
-            WorldStreetsAndImageryOverlay worldStreetsAndImageryOverlay = new WorldStreetsAndImageryOverlay();
-            mapView.Overlays.Add("WorldMapKit", worldStreetsAndImageryOverlay);
+            ThinkGeoCloudMapsOverlay baseOverlay = new ThinkGeoCloudMapsOverlay();
+            mapView.Overlays.Add(baseOverlay);
 
             ShapeFileFeatureLayer worldLayer = new ShapeFileFeatureLayer(Path.Combine(targetDirectory, "cntry02.shp"));
 
@@ -87,7 +88,7 @@ namespace Quickstart
 
             mapView.Overlays.Add("Countries02", overlay);
 
-            mapView.CurrentExtent = new RectangleShape(-134.01, 70.08, -56.60, 7.80);
+            mapView.CurrentExtent = new RectangleShape(-11917925, 6094804, -3300683, 370987);
         }
 
         private void CopySampleData(string targetDirectory)
