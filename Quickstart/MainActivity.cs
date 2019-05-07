@@ -23,9 +23,14 @@ namespace Quickstart
 
             MapView mapView = FindViewById<MapView>(Resource.Id.MapView);
             mapView.MapUnit = GeographyUnit.Meter;
-            mapView.ZoomLevelSet = ThinkGeoCloudMapsOverlay.GetZoomLevelSet();
+            mapView.ZoomLevelSet = new ThinkGeoCloudMapsZoomLevelSet();
 
-            ThinkGeoCloudMapsOverlay baseOverlay = new ThinkGeoCloudMapsOverlay();
+            /*===========================================
+               Backgrounds for this sample are powered by ThinkGeo Cloud Maps and require
+               a Client ID and Secret. These were sent to you via email when you signed up
+               with ThinkGeo, or you can register now at https://cloud.thinkgeo.com.
+            ===========================================*/
+            ThinkGeoCloudRasterMapsOverlay baseOverlay = new ThinkGeoCloudRasterMapsOverlay();
             mapView.Overlays.Add(baseOverlay);
 
             ShapeFileFeatureLayer worldLayer = new ShapeFileFeatureLayer(Path.Combine(targetDirectory, "cntry02.shp"));
