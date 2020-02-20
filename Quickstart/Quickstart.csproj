@@ -42,41 +42,51 @@
     <AndroidLinkMode>SdkOnly</AndroidLinkMode>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="GeoAPI, Version=1.7.4.0, Culture=neutral, PublicKeyToken=a1a0da7def465678, processorArchitecture=MSIL">
-      <HintPath>..\packages\MapSuiteDependency-GeoAPI.10.5.0\lib\MonoAndroid\GeoAPI.dll</HintPath>
+    <Reference Include="GeoAPI, Version=1.7.4.0, Culture=neutral, PublicKeyToken=a1a0da7def465678">
+      <HintPath>..\packages\MapSuiteDependency-GeoAPI.10.6.0\lib\MonoAndroid\GeoAPI.dll</HintPath>
+      <Private>True</Private>
     </Reference>
-    <Reference Include="GeoAPI.Bootstrapper.NetTopologySuite, Version=1.14.0.0, Culture=neutral, PublicKeyToken=f580a05016ebada1, processorArchitecture=MSIL">
-      <HintPath>..\packages\MapSuiteDependency-NetTopologySuite.10.5.0\lib\MonoAndroid\GeoAPI.Bootstrapper.NetTopologySuite.dll</HintPath>
+    <Reference Include="GeoAPI.Bootstrapper.NetTopologySuite, Version=1.14.0.0, Culture=neutral, PublicKeyToken=f580a05016ebada1">
+      <HintPath>..\packages\MapSuiteDependency-NetTopologySuite.10.6.0\lib\MonoAndroid\GeoAPI.Bootstrapper.NetTopologySuite.dll</HintPath>
+      <Private>True</Private>
     </Reference>
     <Reference Include="Mono.Android" />
     <Reference Include="mscorlib" />
-    <Reference Include="NetTopologySuite, Version=1.14.0.0, Culture=neutral, PublicKeyToken=f580a05016ebada1, processorArchitecture=MSIL">
-      <HintPath>..\packages\MapSuiteDependency-NetTopologySuite.10.5.0\lib\MonoAndroid\NetTopologySuite.dll</HintPath>
+    <Reference Include="NetTopologySuite, Version=1.14.0.0, Culture=neutral, PublicKeyToken=f580a05016ebada1">
+      <HintPath>..\packages\MapSuiteDependency-NetTopologySuite.10.6.0\lib\MonoAndroid\NetTopologySuite.dll</HintPath>
+      <Private>True</Private>
     </Reference>
-    <Reference Include="Newtonsoft.Json, Version=12.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
-      <HintPath>..\packages\MapSuiteDependency-NewtonsoftJson.10.5.0\lib\netstandard2.0\Newtonsoft.Json.dll</HintPath>
+    <Reference Include="Newtonsoft.Json, Version=12.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed">
+      <HintPath>..\packages\MapSuiteDependency-NewtonsoftJson.10.6.0\lib\netstandard2.0\Newtonsoft.Json.dll</HintPath>
+      <Private>True</Private>
     </Reference>
-    <Reference Include="PowerCollections, Version=1.0.0.0, Culture=neutral, PublicKeyToken=2573bf8a1bdddcd5, processorArchitecture=MSIL">
-      <HintPath>..\packages\MapSuiteDependency-NetTopologySuite.10.5.0\lib\MonoAndroid\PowerCollections.dll</HintPath>
+    <Reference Include="PowerCollections, Version=1.0.0.0, Culture=neutral, PublicKeyToken=2573bf8a1bdddcd5">
+      <HintPath>..\packages\MapSuiteDependency-NetTopologySuite.10.6.0\lib\MonoAndroid\PowerCollections.dll</HintPath>
+      <Private>True</Private>
     </Reference>
-    <Reference Include="SkiaSharp, Version=1.68.0.0, Culture=neutral, PublicKeyToken=0738eb9f132ed756, processorArchitecture=MSIL">
-      <HintPath>..\packages\MapSuiteDependency-SkiaSharp.10.5.0\lib\MonoAndroid\SkiaSharp.dll</HintPath>
+    <Reference Include="SkiaSharp, Version=1.68.0.0, Culture=neutral, PublicKeyToken=0738eb9f132ed756">
+      <HintPath>..\packages\MapSuiteDependency-SkiaSharp.10.6.0\lib\MonoAndroid\SkiaSharp.dll</HintPath>
+      <Private>True</Private>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Xml" />
-    <Reference Include="ThinkGeo.Cloud.Client, Version=10.0.0.0, Culture=neutral, PublicKeyToken=0828af5241fb4207, processorArchitecture=MSIL">
-      <HintPath>..\packages\ThinkGeo.Cloud.Client.10.5.5\lib\MonoAndroid\ThinkGeo.Cloud.Client.dll</HintPath>
+    <Reference Include="ThinkGeo.Cloud.Client, Version=10.0.0.0, Culture=neutral, PublicKeyToken=0828af5241fb4207">
+      <HintPath>..\packages\ThinkGeo.Cloud.Client.10.6.0\lib\MonoAndroid\ThinkGeo.Cloud.Client.dll</HintPath>
+      <Private>True</Private>
     </Reference>
-    <Reference Include="ThinkGeo.MapSuite, Version=10.0.0.0, Culture=neutral, PublicKeyToken=0828af5241fb4207, processorArchitecture=MSIL">
-      <HintPath>..\packages\ThinkGeo.MapSuite.10.5.1\lib\MonoAndroid\ThinkGeo.MapSuite.dll</HintPath>
+    <Reference Include="ThinkGeo.MapSuite, Version=10.0.0.0, Culture=neutral, PublicKeyToken=0828af5241fb4207">
+      <HintPath>..\packages\ThinkGeo.MapSuite.10.6.7\lib\MonoAndroid\ThinkGeo.MapSuite.dll</HintPath>
+      <Private>True</Private>
     </Reference>
-    <Reference Include="ThinkGeo.MapSuite.Android, Version=10.0.0.0, Culture=neutral, PublicKeyToken=0828af5241fb4207, processorArchitecture=MSIL">
-      <HintPath>..\packages\MapSuiteMobileForAndroid-BareBone.10.5.1\lib\MonoAndroid\ThinkGeo.MapSuite.Android.dll</HintPath>
+    <Reference Include="ThinkGeo.MapSuite.Android, Version=10.0.0.0, Culture=neutral, PublicKeyToken=0828af5241fb4207">
+      <HintPath>..\packages\MapSuiteMobileForAndroid-BareBone.10.6.3\lib\MonoAndroid\ThinkGeo.MapSuite.Android.dll</HintPath>
+      <Private>True</Private>
     </Reference>
-    <Reference Include="ThinkGeo.MapSuite.Layers.ShapeFile, Version=10.0.0.0, Culture=neutral, PublicKeyToken=0828af5241fb4207, processorArchitecture=MSIL">
-      <HintPath>..\packages\ThinkGeo.MapSuite.Layers.ShapeFile.10.5.0\lib\MonoAndroid\ThinkGeo.MapSuite.Layers.ShapeFile.dll</HintPath>
+    <Reference Include="ThinkGeo.MapSuite.Layers.ShapeFile, Version=10.0.0.0, Culture=neutral, PublicKeyToken=0828af5241fb4207">
+      <HintPath>..\packages\ThinkGeo.MapSuite.Layers.ShapeFile.10.6.0\lib\MonoAndroid\ThinkGeo.MapSuite.Layers.ShapeFile.dll</HintPath>
+      <Private>True</Private>
     </Reference>
   </ItemGroup>
   <ItemGroup>
