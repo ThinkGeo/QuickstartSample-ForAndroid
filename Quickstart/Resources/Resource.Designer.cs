@@ -26,26 +26,18 @@ namespace Quickstart
 		
 		public static void UpdateIdValues()
 		{
-			global::ThinkGeo.MapSuite.Android.Resource.Drawable.Compass = global::Quickstart.Resource.Drawable.Compass;
-			global::ThinkGeo.MapSuite.Android.Resource.Drawable.icon_mapsuite_default256x256 = global::Quickstart.Resource.Drawable.icon_mapsuite_default256x256;
-			global::ThinkGeo.MapSuite.Android.Resource.Drawable.icon_mapsuite_default512x512 = global::Quickstart.Resource.Drawable.icon_mapsuite_default512x512;
-			global::ThinkGeo.MapSuite.Android.Resource.Drawable.icon_mapsuite_globe = global::Quickstart.Resource.Drawable.icon_mapsuite_globe;
-			global::ThinkGeo.MapSuite.Android.Resource.Drawable.icon_mapsuite_globe_Pressed = global::Quickstart.Resource.Drawable.icon_mapsuite_globe_Pressed;
-			global::ThinkGeo.MapSuite.Android.Resource.Drawable.icon_mapsuite_Minus = global::Quickstart.Resource.Drawable.icon_mapsuite_Minus;
-			global::ThinkGeo.MapSuite.Android.Resource.Drawable.icon_mapsuite_Minus_Pressed = global::Quickstart.Resource.Drawable.icon_mapsuite_Minus_Pressed;
-			global::ThinkGeo.MapSuite.Android.Resource.Drawable.icon_mapsuite_noImageTile = global::Quickstart.Resource.Drawable.icon_mapsuite_noImageTile;
-			global::ThinkGeo.MapSuite.Android.Resource.Drawable.icon_mapsuite_Plus = global::Quickstart.Resource.Drawable.icon_mapsuite_Plus;
-			global::ThinkGeo.MapSuite.Android.Resource.Drawable.icon_mapsuite_Plus_Pressed = global::Quickstart.Resource.Drawable.icon_mapsuite_Plus_Pressed;
-			global::ThinkGeo.MapSuite.Resource.Drawable.Compass = global::Quickstart.Resource.Drawable.Compass;
-			global::ThinkGeo.MapSuite.Resource.Drawable.icon_mapsuite_default256x256 = global::Quickstart.Resource.Drawable.icon_mapsuite_default256x256;
-			global::ThinkGeo.MapSuite.Resource.Drawable.icon_mapsuite_default512x512 = global::Quickstart.Resource.Drawable.icon_mapsuite_default512x512;
-			global::ThinkGeo.MapSuite.Resource.Drawable.icon_mapsuite_globe = global::Quickstart.Resource.Drawable.icon_mapsuite_globe;
-			global::ThinkGeo.MapSuite.Resource.Drawable.icon_mapsuite_globe_Pressed = global::Quickstart.Resource.Drawable.icon_mapsuite_globe_Pressed;
-			global::ThinkGeo.MapSuite.Resource.Drawable.icon_mapsuite_Minus = global::Quickstart.Resource.Drawable.icon_mapsuite_Minus;
-			global::ThinkGeo.MapSuite.Resource.Drawable.icon_mapsuite_Minus_Pressed = global::Quickstart.Resource.Drawable.icon_mapsuite_Minus_Pressed;
-			global::ThinkGeo.MapSuite.Resource.Drawable.icon_mapsuite_noImageTile = global::Quickstart.Resource.Drawable.icon_mapsuite_noImageTile;
-			global::ThinkGeo.MapSuite.Resource.Drawable.icon_mapsuite_Plus = global::Quickstart.Resource.Drawable.icon_mapsuite_Plus;
-			global::ThinkGeo.MapSuite.Resource.Drawable.icon_mapsuite_Plus_Pressed = global::Quickstart.Resource.Drawable.icon_mapsuite_Plus_Pressed;
+			global::ThinkGeo.UI.Android.Resource.Drawable.Compass = global::Quickstart.Resource.Drawable.Compass;
+			global::ThinkGeo.UI.Android.Resource.Drawable.icon_mapsuite_default256x256 = global::Quickstart.Resource.Drawable.icon_mapsuite_default256x256;
+			global::ThinkGeo.UI.Android.Resource.Drawable.icon_mapsuite_default512x512 = global::Quickstart.Resource.Drawable.icon_mapsuite_default512x512;
+			global::ThinkGeo.UI.Android.Resource.Drawable.icon_mapsuite_globe = global::Quickstart.Resource.Drawable.icon_mapsuite_globe;
+			global::ThinkGeo.UI.Android.Resource.Drawable.icon_mapsuite_globe_Pressed = global::Quickstart.Resource.Drawable.icon_mapsuite_globe_Pressed;
+			global::ThinkGeo.UI.Android.Resource.Drawable.icon_mapsuite_Minus = global::Quickstart.Resource.Drawable.icon_mapsuite_Minus;
+			global::ThinkGeo.UI.Android.Resource.Drawable.icon_mapsuite_Minus_Pressed = global::Quickstart.Resource.Drawable.icon_mapsuite_Minus_Pressed;
+			global::ThinkGeo.UI.Android.Resource.Drawable.icon_mapsuite_noImageTile = global::Quickstart.Resource.Drawable.icon_mapsuite_noImageTile;
+			global::ThinkGeo.UI.Android.Resource.Drawable.icon_mapsuite_Plus = global::Quickstart.Resource.Drawable.icon_mapsuite_Plus;
+			global::ThinkGeo.UI.Android.Resource.Drawable.icon_mapsuite_Plus_Pressed = global::Quickstart.Resource.Drawable.icon_mapsuite_Plus_Pressed;
+			global::ThinkGeo.UI.Android.Resource.String.app_name = global::Quickstart.Resource.String.app_name;
+			global::ThinkGeo.UI.Android.Resource.String.hello = global::Quickstart.Resource.String.hello;
 		}
 		
 		public partial class Attribute
@@ -64,38 +56,38 @@ namespace Quickstart
 		public partial class Drawable
 		{
 			
-			// aapt resource value: 0x7f020000
-			public const int Compass = 2130837504;
+			// aapt resource value: 0x7F010000
+			public const int Compass = 2130771968;
 			
-			// aapt resource value: 0x7f020001
-			public const int Icon = 2130837505;
+			// aapt resource value: 0x7F010001
+			public const int Icon = 2130771969;
 			
-			// aapt resource value: 0x7f020002
-			public const int icon_mapsuite_default256x256 = 2130837506;
+			// aapt resource value: 0x7F010002
+			public const int icon_mapsuite_default256x256 = 2130771970;
 			
-			// aapt resource value: 0x7f020003
-			public const int icon_mapsuite_default512x512 = 2130837507;
+			// aapt resource value: 0x7F010003
+			public const int icon_mapsuite_default512x512 = 2130771971;
 			
-			// aapt resource value: 0x7f020004
-			public const int icon_mapsuite_globe = 2130837508;
+			// aapt resource value: 0x7F010004
+			public const int icon_mapsuite_globe = 2130771972;
 			
-			// aapt resource value: 0x7f020005
-			public const int icon_mapsuite_globe_Pressed = 2130837509;
+			// aapt resource value: 0x7F010005
+			public const int icon_mapsuite_globe_Pressed = 2130771973;
 			
-			// aapt resource value: 0x7f020006
-			public const int icon_mapsuite_Minus = 2130837510;
+			// aapt resource value: 0x7F010006
+			public const int icon_mapsuite_Minus = 2130771974;
 			
-			// aapt resource value: 0x7f020007
-			public const int icon_mapsuite_Minus_Pressed = 2130837511;
+			// aapt resource value: 0x7F010007
+			public const int icon_mapsuite_Minus_Pressed = 2130771975;
 			
-			// aapt resource value: 0x7f020008
-			public const int icon_mapsuite_noImageTile = 2130837512;
+			// aapt resource value: 0x7F010008
+			public const int icon_mapsuite_noImageTile = 2130771976;
 			
-			// aapt resource value: 0x7f020009
-			public const int icon_mapsuite_Plus = 2130837513;
+			// aapt resource value: 0x7F010009
+			public const int icon_mapsuite_Plus = 2130771977;
 			
-			// aapt resource value: 0x7f02000a
-			public const int icon_mapsuite_Plus_Pressed = 2130837514;
+			// aapt resource value: 0x7F01000A
+			public const int icon_mapsuite_Plus_Pressed = 2130771978;
 			
 			static Drawable()
 			{
@@ -110,8 +102,8 @@ namespace Quickstart
 		public partial class Id
 		{
 			
-			// aapt resource value: 0x7f050000
-			public const int MapView = 2131034112;
+			// aapt resource value: 0x7F020000
+			public const int mapView = 2130837504;
 			
 			static Id()
 			{
@@ -126,7 +118,7 @@ namespace Quickstart
 		public partial class Layout
 		{
 			
-			// aapt resource value: 0x7f030000
+			// aapt resource value: 0x7F030000
 			public const int Main = 2130903040;
 			
 			static Layout()
@@ -142,11 +134,17 @@ namespace Quickstart
 		public partial class String
 		{
 			
-			// aapt resource value: 0x7f040001
-			public const int ApplicationName = 2130968577;
+			// aapt resource value: 0x7F040000
+			public const int ApplicationName = 2130968576;
 			
-			// aapt resource value: 0x7f040000
-			public const int Hello = 2130968576;
+			// aapt resource value: 0x7F040002
+			public const int app_name = 2130968578;
+			
+			// aapt resource value: 0x7F040001
+			public const int Hello = 2130968577;
+			
+			// aapt resource value: 0x7F040003
+			public const int hello = 2130968579;
 			
 			static String()
 			{
